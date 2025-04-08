@@ -27,7 +27,7 @@ interface DictionaryProps {
 
 export const Dictionary = ({ onBack }: DictionaryProps) => {
     const { dictionary, loading } = useDictionaryContext();
-    const [errorMessage, setErrorMessage] = useState("");
+    const [errorMessage] = useState("");
     const [opened, { open, close }] = useDisclosure(false);
     const [selectedTranslation, setSelectedTranslation] = useState<
         Translation | undefined

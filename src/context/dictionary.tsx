@@ -26,7 +26,7 @@ type Props = {
 
 export const DictionaryContextProvider = ({ children }: Props) => {
     const [dictionary, setDictionary] = useState<Translation[]>([]);
-    const [loading, setLoading] = useState(false);
+    const [loading] = useState(false);
 
     const observer = useCallback(
         (snapshot: DocumentSnapshot<Translation[]>) => {

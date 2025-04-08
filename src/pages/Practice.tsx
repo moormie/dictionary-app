@@ -21,7 +21,7 @@ interface PracticeProps {
 }
 
 export const Practice = ({ onBack }: PracticeProps) => {
-    const {dictionary, loading} = useDictionaryContext()
+    const {dictionary} = useDictionaryContext()
     const [word, setWord] = useState<string>("");
     const [translatedWord, setTranslatedWord] = useState<string>("");
     const [wordKey, setWordKey] = useState<string>("de");
