@@ -1,0 +1,13 @@
+body {
+  font-family: 'Josefin Sans', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+code {
+  font-family: 'Josefin Sans', cursive, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
